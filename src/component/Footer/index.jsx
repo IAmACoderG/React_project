@@ -11,16 +11,16 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-[#242424] absolute left-0 h-full min-h-[115vh] w-[100vw]">
-        <div className="bg-[#f8c740] h-[15vh] w-[50vw] m-auto rounded-sm relative top-[-7%] flex items-center justify-">
+        <div className="bg-[#f8c740] h-[15vh] w-[50vw] m-auto rounded-sm relative top-[-7%] flex items-center justify-center">
           <div>
-            <img src={medal} alt="" />
+            <img src={medal} alt="" width={100} />
           </div>
-          <div >
-            <h2 className="text-lg font-semibold">#1 Business Directory and Service Provider</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit optio et harum consequatur officiis nesciunt, corporis ad similique?</p>
+          <div className="w-[50%] flex flex-col items-start justify-start" >
+            <h2 className="text-sm font-semibold">#1 Business Directory and Service Provider</h2>
+            <p className = "text-[10px] ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit optio et harum consequatur officiis nesciunt, corporis ad similique?</p>
           </div>
           <div>
-            <button>Clike me</button>
+            <button className="bg-black rounded-2xl text-white px-4 py-1 m-2">Add my Business</button>
           </div>
         </div>
         <div className="bg-[#242424] h-[95vh] w-[50vw] m-auto rounded-sm relative text-white divide-y divide-dashed">
@@ -121,7 +121,7 @@ const Footer = () => {
             <div className=" flex items-center justify-between my-2 py-5 min-w-full">
               <div className="flex flex-col items-start gap-y-5 px-2">
                 <h3 className="text-sm">GET IN TOUCH</h3>
-                <div className="flex items-start gap-x-3 text-[#6e6d6d]">
+                <div className="flex items-start justify-around gap-x-3 text-[#6e6d6d]">
                   <div className="text-[10px] flex flex-col items-start gap-y-2">
                     <p>
                       Digital Products Lorem ipsum, adipisicing elit. Dolorem,
@@ -167,11 +167,11 @@ const Footer = () => {
           </div>
           <div>
             <div className=" text-[10px] text-[#6e6d6d] flex items-center justify-center divide-x divide-dashed my-2 p-5 min-w-full gap-5">
-              <div>Austrelia</div>
-              <div>USA</div>
-              <div>UK</div>
-              <div>China</div>
-              <div>France</div>
+              <div className="pl-5">Austrelia</div>
+              <div className="pl-5">USA</div>
+              <div className="pl-5">UK</div>
+              <div className="pl-5">China</div>
+              <div className="pl-5">France</div>
             </div>
           </div>
         </div>
