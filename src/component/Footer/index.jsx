@@ -10,8 +10,8 @@ import medal from "../../assets/madel12.png";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-[#242424] absolute left-0 h-auto lg:h-full lg:min-h-[115vh] w-full">
-        <div className="bg-[#f8c740] h-[15vh] w-[50vw] m-auto rounded-sm relative top-[-7%] flex items-center justify-center flex-wrap md:flex-nowrap hidden sm:flex">
+      <div className="bg-[#242424] absolute left-0 h-[200vh] lg:h-[115vh] md:h-[150vh] w-full">
+        <div className="bg-[#f8c740] h-[15vh] w-[50vw] m-auto rounded-sm relative md:top-[-5%] lg:top-[-6%] flex items-center justify-center flex-wrap md:flex-nowrap">
           <div>
             <img src={medal} alt="" width={100} />
           </div>
