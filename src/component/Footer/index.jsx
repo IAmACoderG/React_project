@@ -10,8 +10,8 @@ import medal from "../../assets/madel12.png";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-[#242424] absolute left-0 h-full sm:min-h-[115vh] min-h-[125vh] w-full">
-        <div className="bg-[#f8c740] h-[15vh] w-[50vw] m-auto rounded-sm relative top-[-7%] flex items-center justify-center flex-wrap">
+      <div className="bg-[#242424] absolute left-0 h-auto lg:h-full lg:min-h-[115vh] w-full">
+        <div className="bg-[#f8c740] h-[15vh] w-[50vw] m-auto rounded-sm relative top-[-7%] flex items-center justify-center flex-wrap md:flex-nowrap hidden sm:flex">
           <div>
             <img src={medal} alt="" width={100} />
           </div>
@@ -23,7 +23,7 @@ const Footer = () => {
             <button className="bg-black rounded-2xl text-white px-4 py-1 m-2">Add my Business</button>
           </div>
         </div>
-        <div className="bg-[#242424] h-[95vh] w-[50vw] m-auto rounded-sm relative text-white divide-y divide-dashed">
+        <div className="bg-[#242424] h-auto w-[50vw] m-auto rounded-sm relative text-white divide-y divide-dashed">
           <h4>from Support +01464376756 | Email Gaurav@Gmail.com</h4>
           <div className=" my-2 py-5 min-w-full">
             <div className=" flex items-center justify-between divide-x divide-dashed my-2 min-w-full flex-wrap">
@@ -82,7 +82,7 @@ const Footer = () => {
             <div className=" flex items-center justify-between divide-x divide-dashed my-2 py-5 min-w-full">
               <div className="flex flex-col items-start gap-y-5 px-2">
                 <h3 className="text-sm">POPULAR TAGS</h3>
-                <div className="flex items-start gap-x-3 text-[#6e6d6d] flex-wrap">
+                <div className="flex items-start gap-x-3 text-[#6e6d6d] flex-wrap lg:flex-nowrap">
                   <div className="text-[10px] flex flex-col items-start gap-y-2">
                     <p>Digital Products lorem2</p>
                     <p>Real Estate lorem2</p>
@@ -118,7 +118,7 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className=" flex items-center justify-between my-2 py-5 min-w-full flex-wrap lg:flex-nowrap">
+            <div className=" flex items-center justify-between my-2 py-5 min-w-full flex-wrap md:flex-nowrap">
               <div className="flex flex-col items-start gap-y-5 px-2">
                 <h3 className="text-sm">GET IN TOUCH</h3>
                 <div className="flex items-start justify-around gap-x-3 text-[#6e6d6d]">
